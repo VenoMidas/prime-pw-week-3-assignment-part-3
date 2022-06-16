@@ -1,1 +1,11 @@
 /* give your assignment a fun background color */
+
+/* is teal fun? */
+body {
+    background-color: teal;
+}
+
+li {
+    padding: 20px;
+    font-size: 20px;
+}
