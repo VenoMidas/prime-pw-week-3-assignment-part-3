@@ -64,6 +64,7 @@ for (let supplyChangesValue of supplyChanges) {
     //below code if you wanted the number to read as "removed 6 parts"
     //instead of reading "removed -6 parts"
     //console.log("Removed", supplyChangesValue - supplyChangesValue * 2, "parts.");
+    // and now I discovered Math.abs() so that would work instead of doing the math in the code.
   }
 }
 // 8. Write a loop to determine the total number of parts available by
